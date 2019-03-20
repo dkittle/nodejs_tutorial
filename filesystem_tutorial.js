@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-// Create a file
+// Playing with files
 fs.writeFile('example.txt', 'This is an example', (err) =>{
    if (err)
        console.log(err);
