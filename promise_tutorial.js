@@ -43,3 +43,8 @@ cleanTheRoom().then(function(result) {
     console.log('finished work: ' + result);
 });
 
+
+Promise.all([cleanTheRoom(), takeOutGarbage(), eatIcecream()]).then(function() {
+    console.log('All finished');
+})
+
